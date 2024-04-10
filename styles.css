@@ -1,0 +1,141 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hd nav{
+   background-color: #080808;
+   display: flex;
+   justify-content: center;
+}
+.hd nav a {
+    font-size: 24px;
+    text-decoration: none;
+    color: red;
+    margin-left: 15px;
+    padding: 3px;
+}
+
+.hd nav a:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+nav h4 {
+    padding: 3px;
+    margin-left: 15px;
+    color: darkorange;
+    font-size: 24px;
+}
+
+.containerhtml {
+    position: relative;
+    height: 400px;
+}
+
+.html1 {
+    background-image: url(html33.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: 400px;
+    position: absolute;
+}
+
+.html2 {
+ color: snow;
+ background-color:black;
+ position: absolute;
+ width: 20%;
+ box-sizing: border-box;
+ padding: 5px 5px;
+ height: 400px;
+ text-align: justify;
+ right:0px;
+ font-size: 18px;
+ line-height: 1.3;
+}
+
+
+.containercards {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #00ced1;
+}
+
+.cardeven {
+  border-left: 5px solid blue;
+  width: 40%;
+  height: 20%;
+}
+
+.cardodd {
+    border-left: 5px solid green;
+    width: 10%;
+    height: 20%;
+}
+
+
+.cardeven h2 {
+    border-radius: 40px;
+    color: darkolivegreen;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cardodd h2 {
+    text-align: center;
+    border-radius: 40px;
+    color: #9400d3;
+    text-transform: uppercase;
+}
+
+.cardeven dd {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin-left: 5px;
+}
+
+.cardodd dd {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.containerblocks{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #303030;
+} 
+
+.blockeven h2, .blockodd h2 {
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: red;
+    padding: 5px;
+    margin: 10px 10px;
+}
+
+
+.blockeven dd:nth-of-type(even), .blockodd dd:nth-of-type(even) {
+    background-color: white;
+    border: 1px solid black;
+    color: darkgray;
+
+}
+.blockeven dd:nth-of-type(odd), .blockodd dd:nth-of-type(odd) {
+    background-color: white;
+    border: 1px solid black;
+}
+.foot {
+    text-align: center;
+    color: red;
+    background-color: black;
+}
